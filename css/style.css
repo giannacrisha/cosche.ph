@@ -1,0 +1,297 @@
+/* MONUMENT FONTS */
+
+@font-face {
+	font-family: monumentReg;
+	src: url(../fonts/monument/monument-reg.otf);
+}
+
+@font-face {
+	font-family: monumentBold;
+	src: url(../fonts/monument/monument-bold.otf);
+}
+
+/* OPEN SANS FONTS */
+
+@font-face {
+	font-family: openSansReg;
+	src: url(../fonts/open-sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: openSansBold;
+	src: url(../fonts/open-sans/OpenSans-Bold.ttf);
+}
+
+/* BICUBIK FONTS */
+
+@font-face {
+	font-family: bicubik;
+	src: url(../fonts/bicubik/bicubik.otf);
+}
+
+/* TEXT ELEMENTS */
+
+* {
+	margin: 0;
+}
+
+body {
+	background-color: #1f2122;
+	color: #b88917;
+	flex-direction: column;
+
+}
+
+a {
+	text-decoration-line: none;
+	text-decoration: none;
+	text-decoration-style: none;
+}
+
+#logo {
+	width: 7vw;
+	padding: 0;
+	float: left;
+}
+
+
+/* NAVIGATION BAR */
+nav {
+	font-family: monumentReg;
+	padding: 3vw 0 0 3em;
+	float: left;
+	text-align: center;
+	color: white;
+	animation-name: fadeInTop;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+nav a {
+	padding: 1rem 1.5rem 1rem 1.5rem;
+	font-size: 1.5rem;
+	color: white;
+	transition: 1s;
+}
+
+nav a:hover {
+	color: #b88917;
+}
+
+.active {
+	
+}
+
+@keyframes fadeInTop {
+	0% {
+		transform: translateY(-75px);
+	}
+
+	30% {
+		transform: translateY(-75px);
+	}
+
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+/* DIVS */
+.intro {
+	margin-top: 10em;
+	padding: 7em 0 18em 0;
+	background-color: #1f2122;
+	text-align: center;
+}
+.altis {
+	background-color: white;
+	text-align: center;
+}
+
+.altis img {
+	height: 30em;
+}
+
+.wigo {
+	background-color: #b88917;
+	text-align: center;
+	padding-top: 2em ;
+}
+
+.wigo img {
+	height: 25em;
+
+}
+
+.fortuner {
+	background-color: #1f2122;
+	text-align: center;
+	padding-top: 2em;
+}
+
+.fortuner img {
+	height: 25em;
+}
+.aGray {
+	background-color: #AAA;
+}
+.zGray {
+	background-color: #888;
+}
+
+.fourcolumn {
+	float: left;
+	width: 23%;
+	padding-left: 4em;
+	overflow: scroll;
+	margin: -20px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.row {
+	align-items: center;
+}
+
+/* MAIN DOC */
+
+#main-doc {
+
+}
+
+#header {
+	line-height: 0;
+	padding: 4rem;
+	margin-top: -20px;
+}
+
+#header h1 {
+	font-size: 8rem;
+	font-family: montserratBold;
+}
+
+#subtitle {
+	font-family: montserratSemiBold;
+}
+
+section {
+	margin: 0;
+	text-align: left;
+	width: 100%;
+}
+
+section header {
+	font-family: montserratBold;
+	font-size: 3rem;
+}
+
+section h2 {
+	font-family: montserratSemiBold;
+	font-size: 2rem;
+}
+
+section p {
+	text-align: justify;
+	text-indent: 1in;
+	font-size: 1.5rem;
+	width: 100%;
+}
+
+section ul {
+	list-style-type: none;
+}
+
+/* LOADER */
+
+.loaderDIV {
+	width: 100%;
+	height: 100%;
+	background-color: #1f2122;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+}
+
+#background{
+  display:block;
+  position:fixed;
+  width:100%;
+  height:100%;
+  background-color: #1f2122;
+}
+
+#logocontainer{
+  display:block;
+  position:fixed;
+  top:50%;
+  left:50%;
+  width:34vh;
+  height:34vh;
+  margin-left:-17vh;
+  margin-top:-17vh;
+  overflow:hidden;
+  transition:background-color 500ms;
+  cursor:pointer;
+}
+
+#pelogo{
+  display: block;
+  position: absolute;
+  left: 2vh;
+  top: 2vh;
+  width: 30vh;
+  height: 30vh;
+  background: white;
+  background-size: contain;
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 20vh;
+  font-weight: bold;
+  color: #b88917;
+  text-align: center;
+  line-height: 30vh;
+}
+
+.loader{
+  display:block;
+  position:absolute;
+  background-color:#b88917;
+}
+
+@keyframes slide1{
+  50%{width:32vh; margin-left:0;}
+  100%{margin-left:32vh;}
+}
+
+@keyframes slide2{
+  50%{height:32vh; margin-top:0;}
+  100%{margin-top:32vh;}
+}
+
+@keyframes slide3{
+  50%{width:32vh; margin-right:0;}
+  100%{margin-right:32vh;}
+}
+
+@keyframes slide4{
+  50%{height:32vh; margin-bottom:0}
+  100%{margin-bottom:32vh;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
