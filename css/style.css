@@ -215,15 +215,7 @@ section ul {
 	position: absolute;
 	top: 0;
 	left: 0;
-	margin: 0;
-}
-
-#background{
-  display:block;
-  position:fixed;
-  width:100%;
-  height:100%;
-  background-color: #1f2122;
+	display: block;
 }
 
 #logocontainer{
