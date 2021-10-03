@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>COSCH E PH</title>
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+
+		<div id="header">
+			<img id="logo" src="img/logo.png">
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="about.html">About</a>
+				<a href="cars.html">Cars</a>
+				<a class="active" href="#">Contact</a>
+			</nav>
+		</div>
+
+	<main id="main-doc">
+		<section id="HTML" class="main-section intro">
+			<header style=" font-family: bicubik; font-size: 8em; line-height: 0.8;">COSCH E</header>
+			<header style=" font-family: monumentReg; color: white;">Your Road, Your Car</header>
+		</section>
+
+		<section id="altis" class="main-section altis">
+			<img src="img/cars/altis.png"><br>
+			<h1>COROLLA ALTIS</h1><br>
+		</section>
+
+		<section id="wigo" class="main-section wigo">
+			<img src="img/cars/wigo.png"><br><h1>WIGO</h1><br>
+		</section>
+
+		<section id="fortuner" class="main-section fortuner">
+			<img src="img/cars/fortuner.png"><br><h1>FORTUNER</h1><br>
+		</section>
+	</main>
+
+	<div class="loaderDIV">
+    <div id="logocontainer" onclick=fill()>
+    x  <div id="pelogo">E</div>
+      <div class="loader" style="left:2vh; top:0; height:2vh; width:0; animation:slide1 1s linear forwards infinite"></div>
+      <div class="loader" style="right:0; top:2vh; width:2vh; height:0; animation:slide2 1s linear forwards infinite; animation-delay:0.5s"></div>
+      <div class="loader" style="right:2vh; bottom:0; height:2vh; width:0; animation:slide3 1s linear forwards infinite"></div>
+      <div class="loader" style="left:0; bottom:2vh; width:2vh; height:0; animation:slide4 1s linear forwards infinite; animation-delay:0.5s"></div>
+    </div>
+	</div>
+	<script type="text/javascript" src="loader.js"></script>
+</body>
+</html>

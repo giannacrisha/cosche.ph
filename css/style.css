@@ -80,16 +80,17 @@ nav a:hover {
 }
 
 .active {
-	
+	text-decoration-line: overline;
+
 }
 
 @keyframes fadeInTop {
 	0% {
-		transform: translateY(-75px);
+		transform: translateY(-100px);
 	}
 
 	30% {
-		transform: translateY(-75px);
+		transform: translateY(-100px);
 	}
 
 	100% {
