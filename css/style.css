@@ -112,6 +112,11 @@ nav a:hover {
 
 .altis img {
 	height: 30em;
+	transition: 0.5s;
+}
+
+.altis img:hover {
+	transform: scale(1.3);
 }
 
 .altis h1 {
@@ -135,6 +140,11 @@ nav a:hover {
 
 .wigo img {
 	height: 25em;
+	transition: 0.5s;
+}
+
+.wigo img:hover {
+	transform: scale(1.3);
 }
 
 .wigo h1 {
@@ -151,6 +161,11 @@ nav a:hover {
 
 .fortuner img {
 	height: 25em;
+	transition: 0.5s;
+}
+
+.fortuner img:hover {
+	transform: scale(1.3);
 }
 
 .fortuner h1 {
@@ -303,6 +318,10 @@ form button:hover {
 	text-align: justify;
 }
 
+.reps h1 {
+	padding-bottom: 5rem;
+}
+
 .statement {
 	background-color: white;
 	text-align: center;
@@ -320,6 +339,13 @@ form button:hover {
 .statement img {
 	width: 11rem;
 	padding-left: 4rem;
+}
+
+/* CAR */
+
+.carIntro {
+	padding: 5rem;
+	text-align: center;
 }
 /* LOADER */
 
