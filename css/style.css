@@ -113,6 +113,19 @@ nav a:hover {
 	height: 30em;
 }
 
+.altis h1 {
+	font-family: monumentReg;
+	letter-spacing: 5px;
+	color: #1f2122;
+}
+
+.altis h2 {
+	font-family: openSansReg;
+	color: #1f2122;
+	font-size: 1.5em;
+	background-color: #1f2122;
+}
+
 .wigo {
 	background-color: #b88917;
 	text-align: center;
@@ -121,7 +134,12 @@ nav a:hover {
 
 .wigo img {
 	height: 25em;
+}
 
+.wigo h1 {
+	font-family: monumentReg;
+	letter-spacing: 5px;
+	color: white;
 }
 
 .fortuner {
@@ -133,12 +151,13 @@ nav a:hover {
 .fortuner img {
 	height: 25em;
 }
-.aGray {
-	background-color: #AAA;
+
+.fortuner h1 {
+	font-family: monumentReg;
+	letter-spacing: 5px;
+	color: #b88917;
 }
-.zGray {
-	background-color: #888;
-}
+
 
 .fourcolumn {
 	float: left;
@@ -182,7 +201,7 @@ nav a:hover {
 section {
 	margin: 0;
 	text-align: left;
-	width: 100%;
+	padding-bottom: 5em;
 }
 
 section header {
@@ -199,7 +218,6 @@ section p {
 	text-align: justify;
 	text-indent: 1in;
 	font-size: 1.5rem;
-	width: 100%;
 }
 
 section ul {
