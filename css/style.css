@@ -159,6 +159,12 @@ nav a:hover {
 	color: #b88917;
 }
 
+.contact {
+	padding: 9em 0 1em 0;
+	background-color: #1f2122;
+	text-align: center;
+	font-size: 10px;
+}
 
 .fourcolumn {
 	float: left;
@@ -224,7 +230,56 @@ section p {
 section ul {
 	list-style-type: none;
 }
+/* FORM */
 
+form {
+	text-align: center;
+	padding-bottom: 5rem ;
+}
+
+form input {
+	padding: 2vh 3vh 2vh 3vh;
+	font-size: 3vh;
+	border-radius: 50px;
+	border: none;
+	margin: 1rem;
+	width: 45%;
+	font-family: monumentReg;
+	color: #1f2122;
+}
+
+form textarea {
+	font-family: monumentReg;
+	color: #1f2122;
+	padding: 3vh;
+	font-size: 3vh;
+	border-radius: 50px;
+	border: none;
+	margin: 1rem;
+	width: 45%;
+	height: 30vh;
+	
+}
+
+form button {
+	font-family: bicubik;
+	font-size: 1.5rem;
+	border-radius: 100%;
+	margin: 0.5rem;
+	border: none;
+	width: 7rem;
+	height: 7rem;
+	color: #1f2122;
+	transition: 0.5s;
+	text-align: center;
+	padding-top: 0.5rem;
+	background-color: white;
+}
+
+form button:hover {
+	background-color: #b88917;
+	color: white;
+}
 /* LOADER */
 
 .loaderDIV {
