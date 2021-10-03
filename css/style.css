@@ -280,6 +280,47 @@ form button:hover {
 	background-color: #b88917;
 	color: white;
 }
+
+/* ABOUT */
+
+.about {
+	color: white;
+	font-family: openSansReg;
+	padding: 5rem;
+	text-align: justify;
+}
+
+.about h1 {
+	padding-bottom: 5rem;
+}
+
+.reps {
+	background-color: #b88917;
+	text-align: center;
+	color: white;
+	font-family: openSansReg;
+	padding: 5rem;
+	text-align: justify;
+}
+
+.statement {
+	background-color: white;
+	text-align: center;
+	color: #1F2122;
+	font-family: openSansReg;
+	padding: 5rem;
+	text-align: justify;
+}
+
+.statement h1 {
+	padding-bottom: 5rem;
+
+}
+
+.statement img {
+	width: 11rem;
+	padding-left: 4rem;
+}
 /* LOADER */
 
 .loaderDIV {
